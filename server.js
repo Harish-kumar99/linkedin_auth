@@ -14,6 +14,8 @@ app.use(session({
     secret: ''
 }));
 
+//new comment added to git practice session
+
 app.use(passport.initialize());
 app.use(passport.session());
 
